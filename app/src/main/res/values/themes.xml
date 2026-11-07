@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme.
+         Uses Theme.AppCompat as base since Material3 styles are handled by Compose.
+         android:windowTranslucentStatus and NoActionBar ensure full edge-to-edge. -->
+    <style name="Theme.BankApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+</resources>
